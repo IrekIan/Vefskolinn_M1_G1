@@ -58,7 +58,7 @@
 	cursor: pointer;
 	position: absolute;
 	font-size: 178px;
-	bottom: 250px;
+	bottom: 100px;
 	transition: 1s;
 }
 .bottom-icon:hover {
