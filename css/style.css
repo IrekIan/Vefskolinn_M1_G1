@@ -33,4 +33,20 @@
 }
 .title-bottom {
 	font-size: 72px;
+	transition: 2s;
+}
+.title-bottom:hover {
+	color: red;
+}
+
+.body-strobo {
+	animation: epeleptic 0.08s infinite alternate linear;
+}
+@keyframes epeleptic {
+	0% {
+		background: white;
+	}
+	100% {
+		background: red;
+	}
 }
