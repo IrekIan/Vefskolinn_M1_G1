@@ -6,6 +6,7 @@
 
 .section {
 	display: flex;
+
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
@@ -14,4 +15,22 @@
 	height: 1000px;
 	width: 700px;
 	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.title {
+	text-align: center;
+	bottom: 20%;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.title-top {
+	font-size: 56px;
+	position: relative;
+	bottom: 120px;
+}
+.title-bottom {
+	font-size: 72px;
 }
