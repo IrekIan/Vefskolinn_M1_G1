@@ -19,7 +19,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 .title {
 	text-align: center;
@@ -35,31 +35,4 @@
 .title-bottom {
 	font-size: 72px;
 	transition: 2s;
-}
-.title-bottom:hover {
-	color: red;
-	cursor: pointer;
-}
-
-.body-strobo {
-	animation: body-strobo-anim 0.08s infinite alternate linear;
-}
-@keyframes body-strobo-anim {
-	0% {
-		background: white;
-	}
-	100% {
-		background: rgb(119, 0, 0);
-	}
-}
-.poster-strobo {
-	animation: poster-strobo-anim 0.05s infinite alternate linear;
-}
-@keyframes poster-strobo-anim {
-	0% {
-		background: black;
-	}
-	100% {
-		background: white;
-	}
 }
