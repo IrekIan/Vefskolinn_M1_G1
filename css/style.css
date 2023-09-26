@@ -21,18 +21,3 @@
 	flex-direction: column;
 	border-radius: 10px;
 }
-.title {
-	text-align: center;
-	bottom: 20%;
-	color: white;
-	font-family: 'Oswald', sans-serif;
-}
-.title-top {
-	font-size: 56px;
-	position: relative;
-	bottom: 120px;
-}
-.title-bottom {
-	font-size: 72px;
-	transition: 2s;
-}
